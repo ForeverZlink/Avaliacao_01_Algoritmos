@@ -30,5 +30,10 @@ public class Main_Program{
             SchoolHandlerUtil schoolHandlerUtil = new SchoolHandlerUtil(
                   Quantity_of_Students_With_No_PWD, Quantity_Of_Students_With_PWD
                   );
+            Percentage_of_Students_With_Not_Pwd = schoolHandlerUtil.Calculate_Percentage_of_Students_With_Not_PwD_Compared_With_Quantity_Total_Of_Students();
+            Percentage_Of_Students_With_PWD = schoolHandlerUtil.Calculate_Percentage_of_Students_With_PwD_Compared_With_Quantity_Total_Of_Students();
+            Messages_Handler_Terminal.Show_Total_of_Students_In_The_School_With_Not_PWD_and_Percentagem(Quantity_of_Students_With_No_PWD, Percentage_of_Students_With_Not_Pwd);
+            Messages_Handler_Terminal.Show_Total_of_Students_In_The_School_With_PWD_And_Percentage(Quantity_Of_Students_With_PWD, Percentage_Of_Students_With_PWD);
+                
       }
 }
