@@ -1,4 +1,4 @@
-package Exercicio_01;
+import modules.*;
 
 //Problem 1.
 //Uma escola precisa fazer um levantamento do quantitativo de alunos com deficiência (PCD) para tomar algumas decisões estratégicas. 
