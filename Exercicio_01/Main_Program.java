@@ -1,3 +1,5 @@
+
+
 import modules.*;
 
 //Problem 1.
@@ -18,11 +20,15 @@ public class Main_Program{
             Double Quantity_Of_Students_With_PWD;
             Double  Percentage_Of_Students_With_PWD;
             Double  Percentage_of_Students_With_Not_Pwd;
+            
             Messages_Handler_Terminal.Show_Welcome_Message();
             Messages_Handler_Terminal.Show_Message_To_User_Input_Quantity_Students_With_Not_PWD();
             Quantity_of_Students_With_No_PWD = Input_Handler.Read_Input_Of_Double();
             Messages_Handler_Terminal.Show_Message_To_User_Input_Quantity_Students_With_PWD();
             Quantity_Of_Students_With_PWD = Input_Handler.Read_Input_Of_Double();
             
+            SchoolHandlerUtil schoolHandlerUtil = new SchoolHandlerUtil(
+                  Quantity_of_Students_With_No_PWD, Quantity_Of_Students_With_PWD
+                  );
       }
 }
