@@ -26,7 +26,7 @@ public class Messages_Of_Terminal {
     }
     public void Show_Total_of_Students_In_The_School_With_Not_PWD_and_Percentagem(double Students_With_Not_PWD, Double Percentage){
         String Message_Total_of_Students = String.format(
-            "O total de alunos que N?O POSSUEM deficiência é de %.0f. Isso representa uma porcentagem de %.2f porcento do total de alunos.", 
+            "O total de alunos que NÃO POSSUEM deficiência é de %.0f. Isso representa uma porcentagem de %.2f porcento do total de alunos.", 
             Students_With_Not_PWD,Percentage
             );
         System.out.println(Message_Total_of_Students);
