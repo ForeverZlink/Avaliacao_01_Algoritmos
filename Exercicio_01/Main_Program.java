@@ -6,7 +6,10 @@ package Exercicio_01;
 // Ao final, calcule e apresente o percentual de PCD’s dentre o total de alunos.///
 
 public class Main_Program{
-      public static void Main(){
+      
+      public static void main(String[] args){
             
+            Inputs_Handler Input_Handler = new Inputs_Handler();
+            Messages_Of_Terminal Messages_Handler_Terminal = new Messages_Of_Terminal();
       }
 }
