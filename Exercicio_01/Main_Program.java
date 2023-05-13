@@ -11,5 +11,12 @@ public class Main_Program{
             
             Inputs_Handler Input_Handler = new Inputs_Handler();
             Messages_Of_Terminal Messages_Handler_Terminal = new Messages_Of_Terminal();
+            
+            
+            
+            Double Quantity_of_Students_With_No_PWD;
+            Double Quantity_Of_Students_With_PWD;
+            Double  Percentage_Of_Students_With_PWD;
+            Double  Percentage_of_Students_With_Not_Pwd;
       }
 }
