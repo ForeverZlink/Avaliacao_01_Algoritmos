@@ -9,5 +9,11 @@ public class Rectangle extends Polygon{
         super(4,4,4,2);
         this.Base=Base;
         this.Height= Height;
-}
+    }
 
+    public double Calculate_Perimeter(){
+        return 2*(this.Base+this.Height);
+    }
+    public double Calculate_Area(){
+        return this.Height*Base;
+    }
