@@ -7,6 +7,7 @@ public class Inputs_Handler {
     public Scanner Read_Input_Generic(){
         Scanner Input_of_User = new Scanner(System.in);
         return Input_of_User;
+
     }
     public Payments_Methods_Enum Read_Input_Of_Options_Of_Payments(){
         while (true){

@@ -1,10 +1,11 @@
 
 
 import modules.*;
+import utils.Inputs_Handler;
 
 //Problem 1.
-//Uma escola precisa fazer um levantamento do quantitativo de alunos com deficiência (PCD) para tomar algumas decis?es estratégicas. 
-//Você foi contratado para projetar um algoritmo que obtenha o número total de alunos dessa escola e também quantos desses possuem necessidades especiais.
+//Uma escola precisa fazer um levantamento do quantitativo de alunos com deficiï¿½ncia (PCD) para tomar algumas decis?es estratï¿½gicas. 
+//Vocï¿½ foi contratado para projetar um algoritmo que obtenha o nï¿½mero total de alunos dessa escola e tambï¿½m quantos desses possuem necessidades especiais.
 // Ao final, calcule e apresente o percentual de PCD?s dentre o total de alunos.///
 
 public class Main_Program{
