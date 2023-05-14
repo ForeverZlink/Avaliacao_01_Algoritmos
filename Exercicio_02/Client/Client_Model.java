@@ -1,13 +1,9 @@
 package Client;
 
-import java.sql.Time;
-import java.time.LocalDate;
-import java.util.Date;
-
 import java.util.UUID;
 
 public class Client_Model {
-    private UUID Id;
+    public UUID Id;
     private String CPF;
     public String Name;
     public String Complete_Name;
