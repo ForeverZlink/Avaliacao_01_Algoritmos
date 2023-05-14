@@ -1,7 +1,6 @@
-
-
-import modules.*;
-import utils.Inputs_Handler;
+import modules.Messages_Of_Terminal;
+import modules.SchoolHandlerUtil;
+import modules.Inputs_Handler;
 
 //Problem 1.
 //Uma escola precisa fazer um levantamento do quantitativo de alunos com defici�ncia (PCD) para tomar algumas decis?es estrat�gicas. 

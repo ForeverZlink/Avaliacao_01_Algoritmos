@@ -17,7 +17,7 @@ public class Main_Program4 {
             Items_to_Pass_In_Mat.add(Items.WATCH);
             Items_to_Pass_In_Mat.add(Items.OTHERS);
             Items_to_Pass_In_Mat.add(Items.WATCH);
-            Mat mat = new Mat();
+            Mat mat_Instance = new Mat();
 
             for(Items item:Items_to_Pass_In_Mat ){
                   //to simulate a time of to a watch and another ;
@@ -25,7 +25,7 @@ public class Main_Program4 {
                   Timer timer = new Timer();
                   int Time_To_Pass_Watch = random_Instance.nextInt(5000);
                   Thread.sleep(Time_To_Pass_Watch);
-                  boolean Its_Watch= mat.Verify_If_Its_Watch(item);
+                  boolean Its_Watch= mat_Instance.Verify_If_Its_Watch(item);
                   if(!Its_Watch){
                         System.out.println("Algo que não é um relogio acaba de passar. Parando esteira.");
                         break;
@@ -38,7 +38,7 @@ public class Main_Program4 {
 
 
             }
-            System.out.println("Quantidade de relógios que passaram na esteira é de "+mat.List_Of_Watchs_Passed_In_Mat.size());
+            System.out.printf("Quantidade de relógios que passaram na esteira é de %d", mat_Instance.List_Of_Watchs_Passed_In_Mat.size());
 
 
             

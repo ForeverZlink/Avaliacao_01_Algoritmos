@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Mat {
-    ArrayList<Items> List_Of_Watchs_Passed_In_Mat = new ArrayList<Items>();
+    public ArrayList<Items> List_Of_Watchs_Passed_In_Mat = new ArrayList<Items>();
 
     public void Add_Item_Will_Pass_In_MaT(Items item_will_pass) {
 
