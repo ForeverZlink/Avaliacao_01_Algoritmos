@@ -1,4 +1,4 @@
-package modules.payments_context;
+package payments_solutions;
 
 import java.util.Date;
 import java.util.UUID;
@@ -22,6 +22,7 @@ public class Payments_Information_Model {
         this.Id_User_Received_Payment = Id_User_Received_Payment;
         this.Id_User_Made_Payment = Id_User_Made_Payment;
         this.Payment_Method = Payment_Method;
+        this.Quantity_Of_Money_Transaction=Quantity_Of_Money_Transaction;
     }
 
     public Double GetterQuantity_Of_Money_Transaction(){return this.Quantity_Of_Money_Transaction;}
